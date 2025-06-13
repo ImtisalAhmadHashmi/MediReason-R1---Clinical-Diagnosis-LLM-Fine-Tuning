@@ -1,6 +1,6 @@
 # MediReason-R1---Clinical-Diagnosis-LLM-Fine-Tuning
 🔹 Domain Adaptation & Model Architecture\
-• Fine-tuned DeepSeek-R1 (8B) using 4-bit quantization & QLoRA (r=16, α=20)\
+• Fine-tuned DeepSeek-R1 (8B) using 4-bit quantization & LoRA (r=16, α=20)\
 • Targeted 7 key layers (q_proj, v_proj, gate_proj, etc.) for surgical parameter efficiency\
 • Achieved 75% VRAM reduction while retaining diagnostic accuracy on T4 GPU\
 ⚙️ Medical Data Engineering\
